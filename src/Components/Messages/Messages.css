@@ -1,0 +1,31 @@
+.messages-container {
+  padding: 20px;
+  max-width: 500px;
+  margin: auto;
+}
+
+.messages-list {
+  height: 300px;
+  overflow-y: auto;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  padding: 10px;
+}
+
+.message {
+  margin-bottom: 5px;
+}
+
+.messages-input {
+  display: flex;
+  gap: 10px;
+}
+
+.messages-input input {
+  flex: 1;
+  padding: 5px;
+}
+
+.messages-input button {
+  padding: 5px 10px;
+}
